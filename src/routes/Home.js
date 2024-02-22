@@ -7,7 +7,7 @@ function Home() {
   }
   function onSubmit(e) {
     e.preventDefault();
-    console.log(text);
+    setText("");
   }
   return (
     <>
